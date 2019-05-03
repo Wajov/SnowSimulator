@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Projects/SnowSimulator/Partical.cpp
+bits/stdc++.h
+-
+random
+-
+GLM/glm.hpp
+-
+GLM/gtc/matrix_transform.hpp
+-
+GLM/gtc/type_ptr.hpp
+-
+Partical.h
+E:/Projects/SnowSimulator/Partical.h
+
+E:/Projects/SnowSimulator/Partical.h
+
