@@ -122,32 +122,32 @@ SnowSimulator/fast:
 	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/build
 .PHONY : SnowSimulator/fast
 
-Partical.obj: Partical.cpp.obj
+Particle.obj: Particle.cpp.obj
 
-.PHONY : Partical.obj
+.PHONY : Particle.obj
 
 # target to build an object file
-Partical.cpp.obj:
-	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/Partical.cpp.obj
-.PHONY : Partical.cpp.obj
+Particle.cpp.obj:
+	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/Particle.cpp.obj
+.PHONY : Particle.cpp.obj
 
-Partical.i: Partical.cpp.i
+Particle.i: Particle.cpp.i
 
-.PHONY : Partical.i
+.PHONY : Particle.i
 
 # target to preprocess a source file
-Partical.cpp.i:
-	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/Partical.cpp.i
-.PHONY : Partical.cpp.i
+Particle.cpp.i:
+	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/Particle.cpp.i
+.PHONY : Particle.cpp.i
 
-Partical.s: Partical.cpp.s
+Particle.s: Particle.cpp.s
 
-.PHONY : Partical.s
+.PHONY : Particle.s
 
 # target to generate assembly for a file
-Partical.cpp.s:
-	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/Partical.cpp.s
-.PHONY : Partical.cpp.s
+Particle.cpp.s:
+	$(MAKE) -f CMakeFiles\SnowSimulator.dir\build.make CMakeFiles/SnowSimulator.dir/Particle.cpp.s
+.PHONY : Particle.cpp.s
 
 glad.obj: glad.c.obj
 
@@ -212,9 +212,9 @@ help:
 	@echo ... SnowSimulator
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Partical.obj
-	@echo ... Partical.i
-	@echo ... Partical.s
+	@echo ... Particle.obj
+	@echo ... Particle.i
+	@echo ... Particle.s
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s

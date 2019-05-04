@@ -3,10 +3,10 @@
 
 CMakeFiles/SnowSimulator.dir/glad.c.obj: ../glad.c
 
-CMakeFiles/SnowSimulator.dir/Partical.cpp.obj: ../Partical.cpp
-CMakeFiles/SnowSimulator.dir/Partical.cpp.obj: ../Partical.h
+CMakeFiles/SnowSimulator.dir/Particle.cpp.obj: ../Particle.cpp
+CMakeFiles/SnowSimulator.dir/Particle.cpp.obj: ../Particle.h
 
-CMakeFiles/SnowSimulator.dir/main.cpp.obj: ../Partical.h
+CMakeFiles/SnowSimulator.dir/main.cpp.obj: ../Particle.h
 CMakeFiles/SnowSimulator.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/SnowSimulator.dir/main.cpp.obj: ../stb_image.h
 

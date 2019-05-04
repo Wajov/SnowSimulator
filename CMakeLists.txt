@@ -3,5 +3,5 @@ project(SnowSimulator)
 
 add_compile_options(-std=c++14)
 
-add_executable(SnowSimulator main.cpp glad.c Partical.cpp)
+add_executable(SnowSimulator main.cpp glad.c Particle.cpp)
 target_link_libraries(SnowSimulator glfw3)

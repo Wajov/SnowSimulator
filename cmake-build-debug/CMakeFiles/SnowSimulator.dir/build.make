@@ -82,31 +82,31 @@ CMakeFiles/SnowSimulator.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SnowSimulator.dir/glad.c.s"
 	D:\TDM-GCC\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\SnowSimulator\glad.c -o CMakeFiles\SnowSimulator.dir\glad.c.s
 
-CMakeFiles/SnowSimulator.dir/Partical.cpp.obj: CMakeFiles/SnowSimulator.dir/flags.make
-CMakeFiles/SnowSimulator.dir/Partical.cpp.obj: ../Partical.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\SnowSimulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SnowSimulator.dir/Partical.cpp.obj"
-	D:\TDM-GCC\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SnowSimulator.dir\Partical.cpp.obj -c E:\Projects\SnowSimulator\Partical.cpp
+CMakeFiles/SnowSimulator.dir/Particle.cpp.obj: CMakeFiles/SnowSimulator.dir/flags.make
+CMakeFiles/SnowSimulator.dir/Particle.cpp.obj: ../Particle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\SnowSimulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SnowSimulator.dir/Particle.cpp.obj"
+	D:\TDM-GCC\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SnowSimulator.dir\Particle.cpp.obj -c E:\Projects\SnowSimulator\Particle.cpp
 
-CMakeFiles/SnowSimulator.dir/Partical.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnowSimulator.dir/Partical.cpp.i"
-	D:\TDM-GCC\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\SnowSimulator\Partical.cpp > CMakeFiles\SnowSimulator.dir\Partical.cpp.i
+CMakeFiles/SnowSimulator.dir/Particle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SnowSimulator.dir/Particle.cpp.i"
+	D:\TDM-GCC\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\SnowSimulator\Particle.cpp > CMakeFiles\SnowSimulator.dir\Particle.cpp.i
 
-CMakeFiles/SnowSimulator.dir/Partical.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnowSimulator.dir/Partical.cpp.s"
-	D:\TDM-GCC\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\SnowSimulator\Partical.cpp -o CMakeFiles\SnowSimulator.dir\Partical.cpp.s
+CMakeFiles/SnowSimulator.dir/Particle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SnowSimulator.dir/Particle.cpp.s"
+	D:\TDM-GCC\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\SnowSimulator\Particle.cpp -o CMakeFiles\SnowSimulator.dir\Particle.cpp.s
 
 # Object files for target SnowSimulator
 SnowSimulator_OBJECTS = \
 "CMakeFiles/SnowSimulator.dir/main.cpp.obj" \
 "CMakeFiles/SnowSimulator.dir/glad.c.obj" \
-"CMakeFiles/SnowSimulator.dir/Partical.cpp.obj"
+"CMakeFiles/SnowSimulator.dir/Particle.cpp.obj"
 
 # External object files for target SnowSimulator
 SnowSimulator_EXTERNAL_OBJECTS =
 
 SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/main.cpp.obj
 SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/glad.c.obj
-SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/Partical.cpp.obj
+SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/Particle.cpp.obj
 SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/build.make
 SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/linklibs.rsp
 SnowSimulator.exe: CMakeFiles/SnowSimulator.dir/objects1.rsp

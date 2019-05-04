@@ -13,7 +13,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Projects/SnowSimulator/Partical.cpp" "E:/Projects/SnowSimulator/cmake-build-debug/CMakeFiles/SnowSimulator.dir/Partical.cpp.obj"
+  "E:/Projects/SnowSimulator/Particle.cpp" "E:/Projects/SnowSimulator/cmake-build-debug/CMakeFiles/SnowSimulator.dir/Particle.cpp.obj"
   "E:/Projects/SnowSimulator/main.cpp" "E:/Projects/SnowSimulator/cmake-build-debug/CMakeFiles/SnowSimulator.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

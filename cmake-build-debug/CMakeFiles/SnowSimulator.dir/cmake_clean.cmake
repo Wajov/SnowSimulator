@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SnowSimulator.dir/main.cpp.obj"
   "CMakeFiles/SnowSimulator.dir/glad.c.obj"
-  "CMakeFiles/SnowSimulator.dir/Partical.cpp.obj"
+  "CMakeFiles/SnowSimulator.dir/Particle.cpp.obj"
   "SnowSimulator.pdb"
   "SnowSimulator.exe"
   "SnowSimulator.exe.manifest"
