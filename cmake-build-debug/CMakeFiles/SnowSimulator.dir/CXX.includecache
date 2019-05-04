@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+E:/Projects/SnowSimulator/Particle.cpp
+bits/stdc++.h
+-
+random
+-
+GLM/glm.hpp
+-
+GLM/gtc/matrix_transform.hpp
+-
+GLM/gtc/type_ptr.hpp
+-
+Particle.h
+E:/Projects/SnowSimulator/Particle.h
+
 E:/Projects/SnowSimulator/Particle.h
 
 E:/Projects/SnowSimulator/main.cpp

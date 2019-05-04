@@ -13,8 +13,8 @@
 
 // WINDOW_WIDTH：窗口的宽度
 // WINDOW_HEIGHT：窗口的高度
-// PARTICAL_NUM：同时存在的粒子数量
-const int WINDOW_WIDTH = 800, WINDOW_HEIGHT = 800, PARTICAL_NUM = 1000;
+// PARTICLE_NUM：同时存在的粒子数量
+const int WINDOW_WIDTH = 800, WINDOW_HEIGHT = 800, PARTICLE_NUM = 1000;
 // 每片雪花用三维空间中的一个正方形和其上的纹理表示，正方形分为两个三角形绘制，每行前三个实数表示顶点的坐标，后两个实数表示该点对应的纹理坐标
 float vertices[] = {
         -0.01f, -0.01f, -0.01f, 0.0f, 0.0f,
@@ -186,7 +186,7 @@ void init() {
     glEnable(GL_DEPTH_TEST);
 
     // 初始化粒子系统
-    for (unsigned int i = 0; i < PARTICAL_NUM; i++)
+    for (unsigned int i = 0; i < PARTICLE_NUM; i++)
         particles.push_back(Particle(glfwGetTime(), true));
 }
 
