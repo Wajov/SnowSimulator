@@ -1,15 +1,15 @@
+#define STB_IMAGE_IMPLEMENTATION
+
 #include <bits/stdc++.h>
 
-#include <GLAD/glad.h>
+#include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <GLM/glm.hpp>
-#include <GLM/gtc/matrix_transform.hpp>
-#include <GLM/gtc/type_ptr.hpp>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
+#include <stb/stb_image.h>
 
-#define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
 #include "Particle.h"
-
 
 // WINDOW_WIDTH：窗口的宽度
 // WINDOW_HEIGHT：窗口的高度
@@ -168,7 +168,7 @@ void init() {
     // 纹理文件的图像数据
     unsigned char *imageDate;
     // 使用stb_image.h库中读取纹理文件的相关属性和图像数据
-    imageDate = stbi_load("E:\\Projects\\SnowSimulator\\snowflower.jpg", &width, &height, &channelNum, 0);
+    imageDate = stbi_load("snowflower.jpg", &width, &height, &channelNum, 0);
     // 生成纹理
     glGenTextures(1, &texture);
     // 绑定纹理

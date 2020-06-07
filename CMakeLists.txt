@@ -1,7 +1,26 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.0)
 project(SnowSimulator)
 
-add_compile_options(-std=c++14)
+include_directories(
+        /usr/include
+        include
+        lib/glad/include
+)
 
-add_executable(SnowSimulator main.cpp glad.c Particle.cpp)
-target_link_libraries(SnowSimulator glfw3)
+aux_source_directory(src SOURCE)
+add_executable(SnowSimulator ${SOURCE})
+
+# OpenGL
+find_package(OpenGL REQUIRED)
+
+# GLAD
+add_subdirectory(lib/glad)
+
+# GLFW
+find_package(glfw3 REQUIRED)
+set(CMAKE_CXX_LINK_EXECUTABLE "${CMAKE_CXX_LINK_EXECUTABLE} -ldl")
+
+target_link_libraries(SnowSimulator
+        glad
+        glfw
+)
