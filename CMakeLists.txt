@@ -1,11 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(SnowSimulator)
 
-include_directories(
-        /usr/include
-        include
-        lib/glad/include
-)
+include_directories(include)
 
 aux_source_directory(src SOURCE)
 add_executable(SnowSimulator ${SOURCE})
@@ -18,8 +14,8 @@ add_subdirectory(lib/glad)
 
 # GLFW
 find_package(glfw3 REQUIRED)
-set(CMAKE_CXX_LINK_EXECUTABLE "${CMAKE_CXX_LINK_EXECUTABLE} -ldl")
 
+set(CMAKE_CXX_LINK_EXECUTABLE "${CMAKE_CXX_LINK_EXECUTABLE} -ldl")
 target_link_libraries(SnowSimulator
         glad
         glfw
