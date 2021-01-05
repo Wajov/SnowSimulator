@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.0)
 project(SnowSimulator)
 
 include_directories(include)
-
 aux_source_directory(src SOURCE)
 add_executable(SnowSimulator ${SOURCE})
 
